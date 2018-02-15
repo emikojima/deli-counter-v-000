@@ -21,7 +21,8 @@ def take_a_number(katz_deli,other)
 end
 
 def now_serving(katz_deli)
-  until katz_deli.count == 0
+  katz_deli.count == 0
+    katz_deli.each do |names|
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.delete_at(0)
     end 
