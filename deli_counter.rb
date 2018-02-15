@@ -21,10 +21,10 @@ def take_a_number(katz_deli,other)
 end
 
 def now_serving(katz_deli)
-  katz_deli.count == 0
+    if katz_deli.count > 0
     katz_deli.map do |names|
-    puts "Currently serving #{katz_deli[0]}."
-    katz_deli.delete_at(0)
+    puts "Currently serving #{names}."
+    katz_deli -= 1
     end 
     puts "There is nobody waiting to be served!"
 end
