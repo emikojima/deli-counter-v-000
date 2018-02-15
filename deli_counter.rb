@@ -20,3 +20,6 @@ def take_a_number(katz_deli,other)
      puts "Welcome, #{other}. You are number #{number} in line."
 end
 
+def now_serving(katz_deli)
+  
+
