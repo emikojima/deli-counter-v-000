@@ -14,15 +14,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,other)
-    katz_deli << other
-    second_array = []
-    new_array.each_with_index.map do |name, index|
-    second_array << "#{index+1}. #{name}"  
-      end
-      if katz_deli.count == 0 
-        "Welcome #{second_array.join}"
-      else
-      puts "The line is currently: #{new_array.join(" ")}"
-      end
+  number = katz_deli.count+1
+      katz_deli.count == 0 
+     puts "Welcome, #{other}, you are # #{number} in line."
 end
 
