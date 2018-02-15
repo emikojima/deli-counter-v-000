@@ -14,7 +14,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,other)
-    new_array << other
+    katz_deli << other
     second_array = []
     new_array.each_with_index.map do |name, index|
     second_array << "#{index+1}. #{name}"  
