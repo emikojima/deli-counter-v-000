@@ -16,6 +16,6 @@ end
 def take_a_number(katz_deli,other)
   number = katz_deli.count+1
       katz_deli.count == 0 
-     puts "Welcome, #{other}, you are # #{number} in line."
+     puts "Welcome, #{other}, you are number #{number} in line."
 end
 
